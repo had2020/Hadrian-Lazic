@@ -1,0 +1,30 @@
+:root {
+    background-color: #333;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border-color: black;
+    background-color: #222;
+    margin: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_bar {
+    text-align: center;
+    margin: -5px;
+}
+
+.nav_button {
+    color: #999;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav_button:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
