@@ -242,6 +242,7 @@
 }
 
 .era_text {
-    color: gray;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #c8c6c7;
     margin-bottom: 16px;
 }
