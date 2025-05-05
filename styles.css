@@ -365,3 +365,30 @@
     margin-left: 100px;
     margin-bottom: 300px;
 }
+
+.form_button {
+    margin-right: 20px;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    background: linear-gradient(135deg, #7b2ff7, #f107a3);
+    box-shadow: 0 8px 20px rgba(123, 47, 247, 0.3);
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form_button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(123, 47, 247, 0.4);
+}
+
+.form_button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 12px rgba(123, 47, 247, 0.3);
+}
