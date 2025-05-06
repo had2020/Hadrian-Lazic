@@ -392,3 +392,20 @@
     transform: scale(0.98);
     box-shadow: 0 4px 12px rgba(123, 47, 247, 0.3);
 }
+
+.site-footer {
+    background-color: #06000a;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.site-footer a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+}
