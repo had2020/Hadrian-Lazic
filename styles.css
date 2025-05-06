@@ -113,6 +113,17 @@ body {
     color: purple;
 }
 
+@media screen and (max-width: 600px) {
+    .nav_bar a {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .nav_button {
+        font-size: 14px;
+    }
+}
+
 .divider {
     height: 3px;
     width: 100%;
